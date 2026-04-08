@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Media Gallery</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            background: #222;
+            color: white;
+            padding: 15px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .item {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        img, video {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        audio {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Media Gallery</h1>
+
+<div class="gallery">
+
+    <!-- Image -->
+    <div class="item">
+        <h3>Image</h3>
+        <img src="image1.jpg" alt="Sample Image">
+    </div>
+
+    <!-- Audio -->
+    <div class="item">
+        <h3>Audio</h3>
+        <audio controls>
+            <source src="audio1.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <!-- Video -->
+    <div class="item">
+        <h3>Video</h3>
+        <video controls>
+            <source src="video1.mp4" type="video/mp4">
+        </video>
+    </div>
+
+</div>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Media Gallery</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            background: #222;
+            color: white;
+            padding: 15px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .item {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        img, video {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        audio {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Media Gallery</h1>
+
+<div class="gallery">
+
+    <!-- Image -->
+    <div class="item">
+        <h3>Image</h3>
+        <img src="image1.jpg" alt="Sample Image">
+    </div>
+
+    <!-- Audio -->
+    <div class="item">
+        <h3>Audio</h3>
+        <audio controls>
+            <source src="audio1.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <!-- Video -->
+    <div class="item">
+        <h3>Video</h3>
+        <video controls>
+            <source src="video1.mp4" type="video/mp4">
+        </video>
+    </div>
+
+</div>
+
+</body>
+</html>

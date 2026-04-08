@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Creative Media Gallery</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+h1 {
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    padding: 40px;
+}
+
+
+.card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    transition: transform 0.4s, box-shadow 0.4s;
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.04);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.7);
+}
+
+.card h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card img,
+.card video {
+    width: 100%;
+    height: 320px;          
+    object-fit: cover;      
+    border-radius: 15px;
+}
+
+.card audio {
+    width: 100%;
+    height: 70px;           
+    margin-top: 15px;
+}
+
+.end-text {
+    text-align: center;
+    padding: 15px;
+    background: rgba(0,0,0,0.3);
+    font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>✨ Creative Multimedia Gallery ✨</h1>
+
+<div class="gallery">
+
+    <div class="card">
+        <h1>🖼️ Image</h>
+        <img src="nature.jpg" alt="Image">
+    </div>
+
+    <div class="card">
+        <h1>🎬 Video</h>
+        <video controls>
+            <source src=""type="video/mp4">
+        </video>
+    </div>
+
+    <div class="card">
+        <h>🎧 Audio</h>
+        <audio controls>
+            <source src="audio"type="video/mp3">
+        </audio>
+    </div>
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dance Eligibility </title>
+
+    <style>
+        body{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:50vh;
+            margin:0;
+            background-color:#00f7ff;
+        }
+        button{
+            padding:10px 20px;
+            font-size:20px;
+            color:pink;
+            font-weight:bolder;
+        }
+    </style>
+</head>
+
+<body>
+
+<button onclick="dance()">Dance Eligiblity </button>
+
+<script>
+function dance(){
+    alert("Dance registrations are open...");
+
+    let a = prompt("Enter your name:");
+    let b = prompt("Enter your age:");
+    let c = prompt("Enter your dance score:");
+
+    if(c >= 75){
+        var choice = prompt(
+            "Congratulations " + a + "!\n\n" +
+            "You are eligible.\n\n" +
+            "Choose dance category:\n" +
+            "1 - Classical Dance\n" +
+            "2 - Western Dance\n" +
+            "3 - Folk Dance\n\n" +
+            "Enter 1, 2 or 3:"
+        );
+    }
+    else{
+        alert("Sorry, you are not eligible for dance selection.");
+    }
+}
+</script>
+
+</body>
+</html>

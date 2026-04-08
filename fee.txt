@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form{
+        height: 50vh;
+        width: 450px;
+        padding: 45px;
+        margin: 60px;
+        padding-top: 150px;
+       }
+       button{
+        height: 40px;
+        margin: 5px 0px;
+        background-color: cyan;
+        border-radius: 5px;
+       }
+       h1{
+        text-align: center;
+       }
+      body{
+        border: 5px solid black;
+        background-color: darkturquoise;
+       } 
+       form{
+        border: 5px solid black;
+        background-color: darkorange;
+       }
+</style>
+<body>
+    <form>
+    <h1 style="color:deepskyblue"><i>***FEEDBACK FORM</i></h1>
+    <div class="'container">
+        <label><b>name:</b></label>
+        <input type="text" placeholder="enter yor name">
+        <br><br>
+        <label><b>feedback:</b></label>
+        <input type="text" placeholder="enter feedback">
+        <br><br>
+        <label><b>feedback status:</b></label>
+        <br>
+        <input type="radio" name="feedback status">good
+        <br>
+        <input type="radio" name="feedback status">average
+        <br>
+        <input type="radio" name="feedback status">bad
+        <br>
+        <button>submit</button>&nbsp;&nbsp;
+    </form>   
+
+</body>
+</html>

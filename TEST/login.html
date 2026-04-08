@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Central Library</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background: url("library.jpg")
+            height:100vh;
+        }
+
+        .overlay{
+            background: rgba(0,0,0,0.65);
+            height:100vh;
+            width:100%;
+        }
+
+        header{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding:20px 60px;
+            color:white;
+        }
+
+        header h1{
+            font-size:28px;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 15px;
+            font-size:16px;
+        }
+
+        .login-btn{
+            border:2px solid white;
+            padding:8px 18px;
+            border-radius:25px;
+        }
+
+        .center-content{
+            text-align:center;
+            color:white;
+            margin-top:200px;
+        }
+
+        .center-content h2{
+            font-size:42px;
+            margin-bottom:20px;
+        }
+
+        .center-content p{
+            width:60%;
+            margin:auto;
+            font-size:18px;
+            line-height:1.6;
+        }
+    </style>
+</head>
+<body>
+
+<div class="overlay">
+
+<header>
+    <h1>Welcome To The Central Library</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <a href="dashboard.html" class="login-btn">Login</a>
+    </nav>
+</header>
+
+</div>
+
+</body>
+</html>
